@@ -12,11 +12,11 @@ void InputYourMassive(int[] shit) //внутрь процедуры будем �
 void ProcessYourMassive(int[] shit)
 {
     int sum = 0;
-    for (int i=2; i<shit.Length; i=i+2)
+    for (int i=1; i<shit.Length; i=i+2)
     {
         sum = sum + shit[i];
     }
-    Console.WriteLine($"Sum of elements of even index is {sum}");
+    Console.WriteLine($"Sum of elements of non-even index is {sum}");
 }
 
 Console.Clear();
